@@ -11,3 +11,10 @@ The operating system controls what happens when the user tells a computer to "sh
 When you power off your device, removes all power and wipes the contents of the RAM. 
 Sleep saves open documents & running processes to the computer's RAM and shuts off anything not currently needed, like the display; if the computer loses power, changes will be lost.
 Hibernation mode removes power to the computer, but first it saves open documents and running processes to the computer's internal hard drive, so that they can be recovered immediately when power is restored.
+
+Managing Memory
+
+Computers have a limited amount of RAM, so the operating system has to manage the things using memory to make sure there's enough to run everything. 
+The OS pays attention to the processes that are running, and removes processes from being monitored in memory when they are no longer needed. 
+If there's not enough RAM to go around, the OS might allocate a portion of the hard drive to be "virtual memory"; this creates more available memory for processes, but is slower, because accessing data from the hard drive isn't as fast as accessing data from RAM.
+The part of the hard drive set aside as virtual memory is called a "swap file". 
