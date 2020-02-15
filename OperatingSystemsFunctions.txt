@@ -4,3 +4,10 @@ When you tell your computer to turn on, with a button or with some other method,
 The system does a self-inventory and makes sure that everything is working correctly. If there's a problem, the system informs the user. 
 If everything's good to go, the core of the operating system (the "kernel") loads onto the RAM, where it will remain the whole time the device is running.
 The operating system starts running things and loading system configuration information, and finally loads the UI and any start-up applications. 
+
+Shutting Down a Computer
+
+The operating system controls what happens when the user tells a computer to "shut down", whether that means powering off completely, going to sleep, or going into "hibernation mode". 
+When you power off your device, removes all power and wipes the contents of the RAM. 
+Sleep saves open documents & running processes to the computer's RAM and shuts off anything not currently needed, like the display; if the computer loses power, changes will be lost.
+Hibernation mode removes power to the computer, but first it saves open documents and running processes to the computer's internal hard drive, so that they can be recovered immediately when power is restored.
