@@ -1,0 +1,6 @@
+Starting Up a Computer
+
+When you tell your computer to turn on, with a button or with some other method, the power supply (or internal battery) sends a zing of electricity to the processor chip, which resets itself from whatever its previous state was and forces it to look for its boot-up firmware.
+The system does a self-inventory and makes sure that everything is working correctly. If there's a problem, the system informs the user. 
+If everything's good to go, the core of the operating system (the "kernel") loads onto the RAM, where it will remain the whole time the device is running.
+The operating system starts running things and loading system configuration information, and finally loads the UI and any start-up applications. 
